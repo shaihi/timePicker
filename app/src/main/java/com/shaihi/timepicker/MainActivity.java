@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showTimePickerDialog(){
         Calendar calendar = Calendar.getInstance();
-        int minutes = calendar.get(Calendar.MINUTE);
+        int minutדשגכדשגכes = calendar.get(Calendar.MINUTE);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
 
         TimePickerDialog timePickerDialog = new TimePickerDialog(
